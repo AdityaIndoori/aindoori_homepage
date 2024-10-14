@@ -97,6 +97,6 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - your.email@example.com
+Your Name - Aditya Indoori
 
-Project Link: [https://github.com/yourusername/aindoori_homepage](https://github.com/yourusername/aindoori_homepage)
+Project Link: [https://github.com/AdityaIndoori/aindoori_homepage](https://github.com/AdityaIndoori/aindoori_homepage)
