@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes custom-pulse {
+    0%, 100% {
+      background-color: #0f172f; /* dark blue */
+    }
+    50% {
+      background-color: #161718; /* dark gray */
+    }
+  }
+  
+  .animate-custom-pulse {
+    animation: custom-pulse 10s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
