@@ -57,26 +57,39 @@ This project includes Docker support for both development and production environ
 
 1. Build the development Docker image:
    ```
-   docker-compose build dev
+   docker-compose build dev -d
    ```
 
 2. Run the development container:
    ```
-   docker-compose up dev
+   docker-compose up dev -d
    ```
 
+<p align="center"><b>OR</b></p>
+
+1. Build and Run the development Docker image:
+   ```
+   docker-compose up dev -d --build
+   ```
 The site will be available at `http://localhost:5173`.
 
 ### Production with Docker
 
 1. Build the production Docker image:
    ```
-   docker-compose build web
+   docker-compose build web -d
    ```
 
 2. Run the production container:
    ```
-   docker-compose up web
+   docker-compose up web -d
+   ```
+
+<p align="center"><b>OR</b></p>
+
+1. Build and Run the production Docker image:
+   ```
+   docker-compose up web -d --build
    ```
 
 The site will be available at `http://localhost:80`.

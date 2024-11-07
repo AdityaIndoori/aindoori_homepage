@@ -12,5 +12,11 @@ export const NAV_ITEMS = [
     icon: '💾',
     label: 'NextCloud',
     subdomain: SUBDOMAINS.NEXT_CLOUD,
+  },
+  {
+    id: 'PERPLEXICA',
+    icon: '🔍',
+    label: 'Search',
+    subdomain: SUBDOMAINS.SEARCH,
   }
 ];
